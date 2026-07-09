@@ -17,7 +17,7 @@
 
 /* nav style */
 nav {
-  height: 98px;
+  height: 78px;
   width: 1551px;
   padding: 30px 67px;
   background-color: white;
@@ -25,6 +25,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position:fixed;
 }
 
 .nav-menu ul {
@@ -43,3 +44,34 @@ nav {
   color: #575757;
 }
 
+/* hero section style */
+.hero-parent{
+  height: 786px;
+  width: 100%;
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ .hero-container{
+  
+  text-align: center;
+  color: White;
+ }
+ .hero-container h1{
+  font-weight:bold;
+  font-size: 80px;
+  margin-top: 70px;
+ }
+ .hero-container p{
+  margin-bottom: 300px;
+ }
+ 
+.hero-container .common-btn{
+  font-size: 20px;
+}
