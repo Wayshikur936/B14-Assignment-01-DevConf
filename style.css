@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+.common-btn {
+  height: 48px;
+  width: 188px;
+  border: none;
+  color: white;
+  background-color: #1D4ED8;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+/* nav style */
+nav {
+  height: 98px;
+  width: 1551px;
+  padding: 30px 67px;
+  background-color: white;
+  padding: auto 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-menu li {
+  list-style: none;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #575757;
+}
+
