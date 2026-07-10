@@ -317,7 +317,7 @@ p {
    footer{
     width: 1551px;
     height: 400px;
-    margin-top:10px;
+    margin:10px auto;
     background-color: #0D1B2A;
     display: flex;
     justify-content: space-evenly;
